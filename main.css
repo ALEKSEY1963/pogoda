@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-size: inherit;
+  border: none;
+  padding: 12px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}
+
+.container {
+  margin: 100px auto;
+  padding: 8px;
+  max-width: 621px;
+  background-color: #fff;
+}
+.weather {
+  display: flex;
+  border: 1px solid #000000;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+
+.weather-info {
+  padding: 30px 10px;
+  font-weight: 400;
+  font-size: 70px;
+  color: #000;
+}
+.weather-text {
+  padding: 10px 10px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #796aa5;
+}
+.card__img {
+  margin: 0 auto;
+}
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 46%;
+}
+.card__bottom {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+.card__btn {
+  background-image: url(img/heart.svg);
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card__btn-elect:active,
+.card__btn-elect:focus {
+  background-image: url(img/elect.svg);
+}
+
+.city {
+  width: 50%;
+  font-size: 24px;
+  line-height: 28.13px;
+  border-left: 1px solid #000000;
+}
+.city ul {
+  padding: 30px 18px 18px;
+}
+.city__add {
+  padding: 23px 18px;
+  border-bottom: 1px solid #000000;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.item__btn {
+  background-image: url(img/del.svg);
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
